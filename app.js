@@ -1,10 +1,10 @@
 //Login
 function login(){
     let email=document.getElementById("email").value;
-    let password=document.getElementById("password").value;
+    let pass=document.getElementById("password").value;
     let error=document.getElementById("error");
 
-    if(email==="" || pass ===""){
+    if(email  ==="" || pass ===""){
         error.innerText="All fields required";
     }else{
         window.location.href="jobs.html";
